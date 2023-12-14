@@ -29,7 +29,6 @@ typedef struct s_data
 	int				over;
 	int				num_p;
 	int				tme_over;
-	int				start;
 	pthread_mutex_t	*print;
 	pthread_mutex_t	*fork;
 }				t_data;
